@@ -9,7 +9,7 @@ class Nutritionist::ProfileController < ApplicationController
   end
 
   def new
-    @nutritionist = Nutritionist::Profile.new
+        @nutritionist = Nutritionist::Profile.new
       @masterCities = Master::City.all
       @masterSpecialities = Master::Speciality.all
   end
@@ -39,8 +39,12 @@ class Nutritionist::ProfileController < ApplicationController
     @masterCities = Master::City.all
     @masterSpecialities = Master::Speciality.all
 
-    p "params"
-    p params
+    specialities = Nutritionist::NutritionistSpecialityRel.where(nutritionist_id: @nutritionist.id)
+    specialities.delete_all if specialities.present?
+
+    params[:nutritionist_profiles][:specialities].each do |id|
+        Nutritionist::NutritionistSpecialityRel.create(nutritionist_id: @nutritionist.id, speciality_id: id)
+    end
 
     if @nutritionist.update_attributes(nutritionist_params)
       flash[:notice] = "Updated Successfully"

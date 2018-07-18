@@ -7,16 +7,7 @@
     <table class="table table-striped">
         <tr>
             <th>Name</th>
-            <th>Mobile Number</th>
-            <th>Email</th>
-            <th>Counsultation Fees</th>
-            <th>Experience</th>
-            <th>Work History</th>
-            <th>Gender</th>
-            <th>DOB</th>
-            <th>About</th>
-            <th>Awards</th>
-            <th>Ntutive User</th>
+            <th>Specialities</th>
             <th>City</th>
             <th>Actions</th>
         </tr>
@@ -26,34 +17,9 @@
                     <%= n.name %>
                 </td>
                 <td>
-                    <%= n.mobile_no %>
-                </td>
-                <td>
-                    <%= n.email %>
-                </td>
-                <td>
-                    <%= n.counsultation_fees %>
-                </td>
-                <td>
-                    <%= n.experience %>
-                </td>
-                <td>
-                    <%= n.work_history %>
-                </td>
-                <td>
-                    <%= n.gender_id %>
-                </td>
-                <td>
-                    <%= n.dob %>
-                </td>
-                <td>
-                    <%= n.about %>
-                </td>
-                <td>
-                    <%= n.awards%>
-                </td>
-                <td>
-                    <%= n.ntuitive_user_id%>
+                    <% n.specialities.each do |s| %>
+                        <%= s.name %><br/>
+                    <% end %>
                 </td>
                 <td>
                     <%= (n.city.present?) ? n.city.name : '' %>
