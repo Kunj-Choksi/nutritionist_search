@@ -1,10 +1,10 @@
 <table class="mb20">
     <tr>
-        <%= f.label(:name, "Name") %>
-        <%= f.text_field(:name, :class => 'form-control')%>
+        <td><%= f.label(:name, "Name", :style => 'margin: 0px 40px 30px 0px;') %></td>
+        <td><%= f.text_field(:name, :class => 'form-control', :style => 'margin: 0px 40px 30px 0px;')%></td>
     </tr>
     <tr>
-        <%= f.label(:description, "Description") %>
-        <%= f.text_area(:description, :class => 'form-control')%>
+        <td><%= f.label(:description, "Description") %></td>
+        <td><%= f.text_area(:description, :class => 'form-control')%></td>
     </tr>
 </table>

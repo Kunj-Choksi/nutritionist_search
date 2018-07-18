@@ -2,6 +2,8 @@ class Nutritionist::ProfileController < ApplicationController
 
   layout 'admin'
 
+  before_action :find_city 
+
   def index
     @nutritionists = Nutritionist::Profile.sorted
   end
@@ -51,6 +53,12 @@ class Nutritionist::ProfileController < ApplicationController
   end
 
   private
+
+  def find_city
+    if params[:city_id]
+      @cities = Master::City.find(params[:city_id])
+    end
+  end
 
   def page_params
     params.require(:nutritionist_profiles).permit(:name, :mobile_no, :email, :counsultation_fees, :experience, :work_history, :gender_id, :dob, :about, :awards, :ntuitive_user_id, :city_id)

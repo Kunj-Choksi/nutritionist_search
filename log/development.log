@@ -11003,3 +11003,1999 @@ Processing by Nutritionist::ProfileController#edit as HTML
 Completed 200 OK in 79ms (Views: 44.8ms | ActiveRecord: 0.9ms)
 
 
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <main> at /media/kunj/Data/Data/Fitterfly/ntuitive_search_engine/admin/config/routes.rb:40)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <main> at /media/kunj/Data/Data/Fitterfly/ntuitive_search_engine/admin/config/routes.rb:40)
+Started GET "/" for 127.0.0.1 at 2018-07-18 12:12:48 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (3.2ms)
+Completed 200 OK in 65ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-18 12:12:53 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:12:58 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.8ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (27.0ms)
+Completed 200 OK in 393ms (Views: 370.6ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:13:01 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.6ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (17.5ms)
+Completed 200 OK in 63ms (Views: 51.5ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:13:02 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.4ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (2.8ms)
+Completed 200 OK in 48ms (Views: 43.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/master/speciality/index" for 127.0.0.1 at 2018-07-18 12:13:02 +0530
+Processing by Master::SpecialityController#index as HTML
+  Rendering master/speciality/index.html.erb within layouts/admin
+  [1m[36mMaster::Speciality Load (0.8ms)[0m  [1m[34mSELECT "master_specialities".* FROM "master_specialities" ORDER BY master_specialities.id ASC[0m
+  ↳ app/views/master/speciality/index.html.erb:14
+  Rendered master/speciality/index.html.erb within layouts/admin (10.5ms)
+Completed 200 OK in 54ms (Views: 40.0ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:16:57 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (24.4ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (30.8ms)
+Completed 200 OK in 76ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:16:59 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.6ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (4.1ms)
+Completed 200 OK in 52ms (Views: 46.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/master/speciality/index" for 127.0.0.1 at 2018-07-18 12:17:01 +0530
+Processing by Master::SpecialityController#index as HTML
+  Rendering master/speciality/index.html.erb within layouts/admin
+  [1m[36mMaster::Speciality Load (1.1ms)[0m  [1m[34mSELECT "master_specialities".* FROM "master_specialities" ORDER BY master_specialities.id ASC[0m
+  ↳ app/views/master/speciality/index.html.erb:14
+  Rendered master/speciality/index.html.erb within layouts/admin (4.8ms)
+Completed 200 OK in 57ms (Views: 50.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:17:02 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.4ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (3.3ms)
+Completed 200 OK in 47ms (Views: 41.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:17:02 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.8ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (4.3ms)
+Completed 200 OK in 51ms (Views: 45.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:18:24 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.4ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (3.2ms)
+Completed 200 OK in 52ms (Views: 46.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/master/city/new" for 127.0.0.1 at 2018-07-18 12:18:24 +0530
+Processing by Master::CityController#new as HTML
+  Rendering master/city/new.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (1.3ms)
+  Rendered master/city/new.html.erb within layouts/admin (11.2ms)
+Completed 200 OK in 53ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/city/new" for 127.0.0.1 at 2018-07-18 12:19:03 +0530
+Processing by Master::CityController#new as HTML
+  Rendering master/city/new.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (0.7ms)
+  Rendered master/city/new.html.erb within layouts/admin (6.2ms)
+Completed 200 OK in 45ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/city/new" for 127.0.0.1 at 2018-07-18 12:19:48 +0530
+Processing by Master::CityController#new as HTML
+  Rendering master/city/new.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (0.8ms)
+  Rendered master/city/new.html.erb within layouts/admin (7.3ms)
+Completed 200 OK in 49ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/city/new" for 127.0.0.1 at 2018-07-18 12:20:10 +0530
+Processing by Master::CityController#new as HTML
+  Rendering master/city/new.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (0.7ms)
+  Rendered master/city/new.html.erb within layouts/admin (8.5ms)
+Completed 200 OK in 52ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/city/new" for 127.0.0.1 at 2018-07-18 12:20:55 +0530
+Processing by Master::CityController#new as HTML
+  Rendering master/city/new.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (0.7ms)
+  Rendered master/city/new.html.erb within layouts/admin (5.5ms)
+Completed 200 OK in 51ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/city/new" for 127.0.0.1 at 2018-07-18 12:21:31 +0530
+Processing by Master::CityController#new as HTML
+  Rendering master/city/new.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (1.1ms)
+  Rendered master/city/new.html.erb within layouts/admin (12.5ms)
+Completed 200 OK in 57ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/city/new" for 127.0.0.1 at 2018-07-18 12:21:51 +0530
+Processing by Master::CityController#new as HTML
+  Rendering master/city/new.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (0.7ms)
+  Rendered master/city/new.html.erb within layouts/admin (5.9ms)
+Completed 200 OK in 61ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/city/new" for 127.0.0.1 at 2018-07-18 12:22:02 +0530
+Processing by Master::CityController#new as HTML
+  Rendering master/city/new.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (0.7ms)
+  Rendered master/city/new.html.erb within layouts/admin (5.4ms)
+Completed 200 OK in 48ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/city/new" for 127.0.0.1 at 2018-07-18 12:22:26 +0530
+Processing by Master::CityController#new as HTML
+  Rendering master/city/new.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (0.8ms)
+  Rendered master/city/new.html.erb within layouts/admin (7.4ms)
+Completed 200 OK in 52ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:22:32 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.8ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (3.5ms)
+Completed 200 OK in 49ms (Views: 43.4ms | ActiveRecord: 0.8ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/speciality/index" for 127.0.0.1 at 2018-07-18 12:22:35 +0530
+Processing by Master::SpecialityController#index as HTML
+  Rendering master/speciality/index.html.erb within layouts/admin
+  [1m[36mMaster::Speciality Load (0.7ms)[0m  [1m[34mSELECT "master_specialities".* FROM "master_specialities" ORDER BY master_specialities.id ASC[0m
+  ↳ app/views/master/speciality/index.html.erb:14
+  Rendered master/speciality/index.html.erb within layouts/admin (3.5ms)
+Completed 200 OK in 48ms (Views: 40.1ms | ActiveRecord: 0.7ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:22:37 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (0.7ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (8.3ms)
+Completed 200 OK in 51ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:23:48 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (1.0ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (6.3ms)
+Completed 200 OK in 56ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:24:04 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (3.8ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (13.7ms)
+Completed 200 OK in 74ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:24:10 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (1.0ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (8.2ms)
+Completed 200 OK in 57ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:24:25 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (0.8ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (12.7ms)
+Completed 200 OK in 58ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:24:46 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (2.6ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (10.7ms)
+Completed 200 OK in 56ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/speciality/index" for 127.0.0.1 at 2018-07-18 12:25:02 +0530
+Processing by Master::SpecialityController#index as HTML
+  Rendering master/speciality/index.html.erb within layouts/admin
+  [1m[36mMaster::Speciality Load (0.7ms)[0m  [1m[34mSELECT "master_specialities".* FROM "master_specialities" ORDER BY master_specialities.id ASC[0m
+  ↳ app/views/master/speciality/index.html.erb:14
+  Rendered master/speciality/index.html.erb within layouts/admin (3.8ms)
+Completed 200 OK in 50ms (Views: 42.7ms | ActiveRecord: 0.7ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:25:08 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.8ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (3.8ms)
+Completed 200 OK in 48ms (Views: 41.2ms | ActiveRecord: 0.8ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/new" for 127.0.0.1 at 2018-07-18 12:25:09 +0530
+Processing by Nutritionist::ProfileController#new as HTML
+  Rendering nutritionist/profile/new.html.erb within layouts/admin
+  Rendered nutritionist/profile/_form.html.erb (2.8ms)
+  Rendered nutritionist/profile/new.html.erb within layouts/admin (12.1ms)
+Completed 200 OK in 54ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/new" for 127.0.0.1 at 2018-07-18 12:25:28 +0530
+Processing by Nutritionist::ProfileController#new as HTML
+  Rendering nutritionist/profile/new.html.erb within layouts/admin
+  Rendered nutritionist/profile/_form.html.erb (3.9ms)
+  Rendered nutritionist/profile/new.html.erb within layouts/admin (10.2ms)
+Completed 200 OK in 53ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/new" for 127.0.0.1 at 2018-07-18 12:27:09 +0530
+Processing by Nutritionist::ProfileController#new as HTML
+  Rendering nutritionist/profile/new.html.erb within layouts/admin
+  Rendered nutritionist/profile/_form.html.erb (2.2ms)
+  Rendered nutritionist/profile/new.html.erb within layouts/admin (9.2ms)
+Completed 200 OK in 55ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nutritionist/profile/edit?id=11" for 127.0.0.1 at 2018-07-18 12:27:14 +0530
+Processing by Nutritionist::ProfileController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mNutritionist::Profile Load (0.3ms)[0m  [1m[34mSELECT  "nutritionist_profiles".* FROM "nutritionist_profiles" WHERE "nutritionist_profiles"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/nutritionist/profile_controller.rb:24
+  Rendering nutritionist/profile/edit.html.erb within layouts/admin
+  Rendered nutritionist/profile/_form.html.erb (4.2ms)
+  Rendered nutritionist/profile/edit.html.erb within layouts/admin (9.9ms)
+Completed 200 OK in 83ms (Views: 49.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:27:19 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.6ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (8.4ms)
+Completed 200 OK in 54ms (Views: 48.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/master/city/edit?id=7" for 127.0.0.1 at 2018-07-18 12:27:22 +0530
+Processing by Master::CityController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mMaster::City Load (0.3ms)[0m  [1m[34mSELECT  "master_cities".* FROM "master_cities" WHERE "master_cities"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/master/city_controller.rb:24
+  Rendering master/city/edit.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (2.8ms)
+  Rendered master/city/edit.html.erb within layouts/admin (12.1ms)
+Completed 200 OK in 57ms (Views: 48.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/master/speciality/index" for 127.0.0.1 at 2018-07-18 12:27:25 +0530
+Processing by Master::SpecialityController#index as HTML
+  Rendering master/speciality/index.html.erb within layouts/admin
+  [1m[36mMaster::Speciality Load (0.7ms)[0m  [1m[34mSELECT "master_specialities".* FROM "master_specialities" ORDER BY master_specialities.id ASC[0m
+  ↳ app/views/master/speciality/index.html.erb:14
+  Rendered master/speciality/index.html.erb within layouts/admin (5.7ms)
+Completed 200 OK in 56ms (Views: 49.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/master/speciality/edit?id=1" for 127.0.0.1 at 2018-07-18 12:27:27 +0530
+Processing by Master::SpecialityController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMaster::Speciality Load (0.5ms)[0m  [1m[34mSELECT  "master_specialities".* FROM "master_specialities" WHERE "master_specialities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/master/speciality_controller.rb:24
+  Rendering master/speciality/edit.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (0.8ms)
+  Rendered master/speciality/edit.html.erb within layouts/admin (9.2ms)
+Completed 200 OK in 56ms (Views: 40.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:27:30 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (1.0ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (10.4ms)
+Completed 200 OK in 49ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:27:49 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (0.9ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (6.8ms)
+Completed 200 OK in 50ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:28:06 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (1.3ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (14.0ms)
+Completed 200 OK in 57ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:28:21 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (0.7ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (6.8ms)
+Completed 200 OK in 58ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:28:41 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (0.7ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (6.7ms)
+Completed 200 OK in 52ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:28:54 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (0.8ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (7.5ms)
+Completed 200 OK in 53ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:28:55 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.4ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (3.6ms)
+Completed 200 OK in 50ms (Views: 42.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/master/city/new" for 127.0.0.1 at 2018-07-18 12:28:59 +0530
+Processing by Master::CityController#new as HTML
+  Rendering master/city/new.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (2.7ms)
+  Rendered master/city/new.html.erb within layouts/admin (10.1ms)
+Completed 200 OK in 55ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/speciality/index" for 127.0.0.1 at 2018-07-18 12:29:01 +0530
+Processing by Master::SpecialityController#index as HTML
+  Rendering master/speciality/index.html.erb within layouts/admin
+  [1m[36mMaster::Speciality Load (0.4ms)[0m  [1m[34mSELECT "master_specialities".* FROM "master_specialities" ORDER BY master_specialities.id ASC[0m
+  ↳ app/views/master/speciality/index.html.erb:14
+  Rendered master/speciality/index.html.erb within layouts/admin (3.3ms)
+Completed 200 OK in 57ms (Views: 49.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/master/speciality/new" for 127.0.0.1 at 2018-07-18 12:29:03 +0530
+Processing by Master::SpecialityController#new as HTML
+  Rendering master/speciality/new.html.erb within layouts/admin
+  Rendered master/speciality/_form.html.erb (0.8ms)
+  Rendered master/speciality/new.html.erb within layouts/admin (6.6ms)
+Completed 200 OK in 50ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/master/speciality/index" for 127.0.0.1 at 2018-07-18 12:31:47 +0530
+Processing by Master::SpecialityController#index as HTML
+  Rendering master/speciality/index.html.erb within layouts/admin
+  [1m[36mMaster::Speciality Load (0.5ms)[0m  [1m[34mSELECT "master_specialities".* FROM "master_specialities" ORDER BY master_specialities.id ASC[0m
+  ↳ app/views/master/speciality/index.html.erb:14
+  Rendered master/speciality/index.html.erb within layouts/admin (3.3ms)
+Completed 200 OK in 48ms (Views: 39.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:31:48 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.5ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (3.4ms)
+Completed 200 OK in 50ms (Views: 45.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/master/city/new" for 127.0.0.1 at 2018-07-18 12:31:49 +0530
+Processing by Master::CityController#new as HTML
+  Rendering master/city/new.html.erb within layouts/admin
+  Rendered master/city/_form.html.erb (0.8ms)
+  Rendered master/city/new.html.erb within layouts/admin (6.0ms)
+Completed 200 OK in 61ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:31:51 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.7ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (4.8ms)
+Completed 200 OK in 52ms (Views: 43.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/nutritionist/profile/new" for 127.0.0.1 at 2018-07-18 12:31:52 +0530
+Processing by Nutritionist::ProfileController#new as HTML
+  Rendering nutritionist/profile/new.html.erb within layouts/admin
+  Rendered nutritionist/profile/_form.html.erb (9.7ms)
+  Rendered nutritionist/profile/new.html.erb within layouts/admin (14.9ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `map' for nil:NilClass
+Did you mean?  tap):
+    45:     </tr>
+    46:     <tr>
+    47:         <th><%= f.label(:city_id, "City", :style => 'margin: 0px 20px 20px 0px;') %></th>
+    48:         <td><%= f.select(:city_id, @cities.map { |s| [c.name, c.id] })%></td>
+    49:     </tr>
+    50: </table>
+  
+app/views/nutritionist/profile/_form.html.erb:48:in `_app_views_nutritionist_profile__form_html_erb___2191157576175532920_69901568004440'
+app/views/nutritionist/profile/new.html.erb:5:in `block in _app_views_nutritionist_profile_new_html_erb__2915682816055031486_69901635769020'
+app/views/nutritionist/profile/new.html.erb:3:in `_app_views_nutritionist_profile_new_html_erb__2915682816055031486_69901635769020'
+Started GET "/nutritionist/profile/new" for 127.0.0.1 at 2018-07-18 12:34:46 +0530
+Processing by Nutritionist::ProfileController#new as HTML
+  Rendering nutritionist/profile/new.html.erb within layouts/admin
+  Rendered nutritionist/profile/_form.html.erb (6.6ms)
+  Rendered nutritionist/profile/new.html.erb within layouts/admin (14.3ms)
+Completed 200 OK in 65ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:39:09 +0530
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <main> at /media/kunj/Data/Data/Fitterfly/ntuitive_search_engine/admin/config/routes.rb:40)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <main> at /media/kunj/Data/Data/Fitterfly/ntuitive_search_engine/admin/config/routes.rb:40)
+  
+SyntaxError (compile error):
+  
+compile error
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+activesupport (5.2.0) lib/active_support/dependencies.rb:468:in `block in load_file'
+activesupport (5.2.0) lib/active_support/dependencies.rb:653:in `new_constants_in'
+activesupport (5.2.0) lib/active_support/dependencies.rb:467:in `load_file'
+activesupport (5.2.0) lib/active_support/dependencies.rb:365:in `block in require_or_load'
+activesupport (5.2.0) lib/active_support/dependencies.rb:37:in `block in load_interlock'
+activesupport (5.2.0) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.0) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.0) lib/active_support/dependencies/interlock.rb:13:in `loading'
+activesupport (5.2.0) lib/active_support/dependencies.rb:37:in `load_interlock'
+activesupport (5.2.0) lib/active_support/dependencies.rb:348:in `require_or_load'
+activesupport (5.2.0) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:43:in `load_missing_constant'
+activesupport (5.2.0) lib/active_support/dependencies.rb:193:in `const_missing'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:285:in `const_get'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:285:in `block in constantize'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `constantize'
+activesupport (5.2.0) lib/active_support/dependencies.rb:574:in `get'
+activesupport (5.2.0) lib/active_support/dependencies.rb:605:in `constantize'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:101:in `binary_params_for?'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:92:in `set_binary_encoding'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:39:14 +0530
+  
+LoadError (Unable to autoload constant Nutritionist::ProfileController, expected /media/kunj/Data/Data/Fitterfly/ntuitive_search_engine/admin/app/controllers/nutritionist/profile_controller.rb to define it):
+  
+activesupport (5.2.0) lib/active_support/dependencies.rb:503:in `load_missing_constant'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:43:in `load_missing_constant'
+activesupport (5.2.0) lib/active_support/dependencies.rb:193:in `const_missing'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:285:in `const_get'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:285:in `block in constantize'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `constantize'
+activesupport (5.2.0) lib/active_support/dependencies.rb:574:in `get'
+activesupport (5.2.0) lib/active_support/dependencies.rb:605:in `constantize'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:101:in `binary_params_for?'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:92:in `set_binary_encoding'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:39:16 +0530
+  
+LoadError (Unable to autoload constant Nutritionist::ProfileController, expected /media/kunj/Data/Data/Fitterfly/ntuitive_search_engine/admin/app/controllers/nutritionist/profile_controller.rb to define it):
+  
+activesupport (5.2.0) lib/active_support/dependencies.rb:503:in `load_missing_constant'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:43:in `load_missing_constant'
+activesupport (5.2.0) lib/active_support/dependencies.rb:193:in `const_missing'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:285:in `const_get'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:285:in `block in constantize'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `constantize'
+activesupport (5.2.0) lib/active_support/dependencies.rb:574:in `get'
+activesupport (5.2.0) lib/active_support/dependencies.rb:605:in `constantize'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:101:in `binary_params_for?'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:92:in `set_binary_encoding'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:39:25 +0530
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <main> at /media/kunj/Data/Data/Fitterfly/ntuitive_search_engine/admin/config/routes.rb:40)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <main> at /media/kunj/Data/Data/Fitterfly/ntuitive_search_engine/admin/config/routes.rb:40)
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.4ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (28.7ms)
+Completed 200 OK in 82ms (Views: 64.7ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/nutritionist/profile/new" for 127.0.0.1 at 2018-07-18 12:39:30 +0530
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <main> at /media/kunj/Data/Data/Fitterfly/ntuitive_search_engine/admin/config/routes.rb:40)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <main> at /media/kunj/Data/Data/Fitterfly/ntuitive_search_engine/admin/config/routes.rb:40)
+Processing by Nutritionist::ProfileController#new as HTML
+  Rendering nutritionist/profile/new.html.erb within layouts/admin
+  Rendered nutritionist/profile/_form.html.erb (2.6ms)
+  Rendered nutritionist/profile/new.html.erb within layouts/admin (9.9ms)
+Completed 200 OK in 86ms (Views: 50.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/nutritionist/profile/new" for 127.0.0.1 at 2018-07-18 12:39:35 +0530
+Processing by Nutritionist::ProfileController#new as HTML
+  Rendering nutritionist/profile/new.html.erb within layouts/admin
+  Rendered nutritionist/profile/_form.html.erb (2.8ms)
+  Rendered nutritionist/profile/new.html.erb within layouts/admin (15.3ms)
+Completed 200 OK in 64ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:39:44 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.5ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (4.5ms)
+Completed 200 OK in 54ms (Views: 48.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:40:41 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.5ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (3.4ms)
+Completed 200 OK in 51ms (Views: 45.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:40:42 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.9ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (15.4ms)
+Completed 200 OK in 80ms (Views: 64.1ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/master/speciality/index" for 127.0.0.1 at 2018-07-18 12:40:43 +0530
+Processing by Master::SpecialityController#index as HTML
+  Rendering master/speciality/index.html.erb within layouts/admin
+  [1m[36mMaster::Speciality Load (0.5ms)[0m  [1m[34mSELECT "master_specialities".* FROM "master_specialities" ORDER BY master_specialities.id ASC[0m
+  ↳ app/views/master/speciality/index.html.erb:14
+  Rendered master/speciality/index.html.erb within layouts/admin (18.5ms)
+Completed 200 OK in 73ms (Views: 60.5ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:41:02 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.5ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (3.7ms)
+Completed 200 OK in 72ms (Views: 65.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:41:08 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.4ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (3.5ms)
+Completed 200 OK in 54ms (Views: 48.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:41:30 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.5ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (3.7ms)
+Completed 200 OK in 59ms (Views: 53.0ms | ActiveRecord: 0.5ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:43:03 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.4ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (3.1ms)
+Completed 200 OK in 60ms (Views: 54.7ms | ActiveRecord: 0.4ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:43:34 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.7ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (4.2ms)
+Completed 200 OK in 59ms (Views: 53.7ms | ActiveRecord: 0.7ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:43:35 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (3.2ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:24
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (9.4ms)
+Completed 200 OK in 51ms (Views: 43.2ms | ActiveRecord: 3.2ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:44:08 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.4ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:23
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (3.6ms)
+Completed 200 OK in 57ms (Views: 51.6ms | ActiveRecord: 0.4ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:44:34 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.8ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:23
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (3.7ms)
+Completed 200 OK in 55ms (Views: 46.2ms | ActiveRecord: 0.8ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:45:28 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.9ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:23
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (12.2ms)
+Completed 200 OK in 80ms (Views: 68.2ms | ActiveRecord: 0.9ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:46:22 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (2.4ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:23
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (7.5ms)
+Completed 200 OK in 59ms (Views: 49.4ms | ActiveRecord: 2.4ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:46:59 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (0.6ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (4.3ms)
+Completed 200 OK in 64ms (Views: 58.0ms | ActiveRecord: 0.6ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/master/city/index" for 127.0.0.1 at 2018-07-18 12:47:01 +0530
+Processing by Master::CityController#index as HTML
+  Rendering master/city/index.html.erb within layouts/admin
+  [1m[36mMaster::City Load (1.7ms)[0m  [1m[34mSELECT "master_cities".* FROM "master_cities" ORDER BY master_cities.id ASC[0m
+  ↳ app/views/master/city/index.html.erb:15
+  Rendered master/city/index.html.erb within layouts/admin (8.2ms)
+Completed 200 OK in 58ms (Views: 51.2ms | ActiveRecord: 1.7ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:47:02 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.8ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:23
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (4.8ms)
+Completed 200 OK in 65ms (Views: 59.9ms | ActiveRecord: 0.8ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/nutritionist/profile/index" for 127.0.0.1 at 2018-07-18 12:47:25 +0530
+Processing by Nutritionist::ProfileController#index as HTML
+  Rendering nutritionist/profile/index.html.erb within layouts/admin
+  [1m[36mNutritionist::Profile Load (0.4ms)[0m  [1m[34mSELECT "nutritionist_profiles".* FROM "nutritionist_profiles" ORDER BY nutritionist_profiles.id ASC[0m
+  ↳ app/views/nutritionist/profile/index.html.erb:23
+  Rendered nutritionist/profile/index.html.erb within layouts/admin (3.6ms)
+Completed 200 OK in 56ms (Views: 50.3ms | ActiveRecord: 0.4ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.0) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.0) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'

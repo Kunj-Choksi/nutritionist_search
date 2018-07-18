@@ -3,68 +3,66 @@
 <h2 class="page-header mb20">Nutritionist</h2>
 </div>
 
-    <div class="nutritionist-table">
-        <%= link_to("Add Nutritionist", {:action => 'new'}, :class => 'btn btn-primary mb20') %>
-            <table class="table table-striped">
-                <tr>
-                    <th>Name</th>
-                    <th>Mobile Number</th>
-                    <th>Email</th>
-                    <th>Counsultation Fees</th>
-                    <th>Experience</th>
-                    <th>Work History</th>
-                    <th>Gender</th>
-                    <th>DOB</th>
-                    <th>About</th>
-                    <th>Awards</th>
-                    <th>Ntutive User</th>
-                    <th>City</th>
-                    <th>Actions</th>
-                </tr>
-                <% @nutritionists.each do |n| %>
-                    <tr>
-                        <td>
-                            <%= n.name %>
-                        </td>
-                        <td>
-                            <%= n.mobile_no %>
-                        </td>
-                        <td>
-                            <%= n.email %>
-                        </td>
-                        <td>
-                            <%= n.counsultation_fees %>
-                        </td>
-                        <td>
-                            <%= n.experience %>
-                        </td>
-                        <td>
-                            <%= n.work_history %>
-                        </td>
-                        <td>
-                            <%= n.gender_id %>
-                        </td>
-                        <td>
-                            <%= n.dob %>
-                        </td>
-                        <td>
-                            <%= n.about %>
-                        </td>
-                        <td>
-                            <%= n.awards%>
-                        </td>
-                        <td>
-                            <%= n.ntuitive_user_id%>
-                        </td>
-                        <td>
-                            <%= n.city_id%>
-                        </td>
-                        <td>
-                            <%= link_to("Edit", {:action => 'edit', :id => n.id},  :class => 'btn btn-primary') %>
-                            <%= link_to("Delete", {:action => 'delete', :id => n.id},  :class => 'btn btn-danger' ) %>
-                        </td>
-                    </tr>
-                <% end %>
-            </table>
-    </div>
+<%= link_to("Add Nutritionist", {:action => 'new'}, :class => 'btn btn-primary mb20') %>
+    <table class="table table-striped">
+        <tr>
+            <th>Name</th>
+            <th>Mobile Number</th>
+            <th>Email</th>
+            <th>Counsultation Fees</th>
+            <th>Experience</th>
+            <th>Work History</th>
+            <th>Gender</th>
+            <th>DOB</th>
+            <th>About</th>
+            <th>Awards</th>
+            <th>Ntutive User</th>
+            <th>City</th>
+            <th>Actions</th>
+        </tr>
+        <% @nutritionists.each do |n| %>
+            <tr>
+                <td>
+                    <%= n.name %>
+                </td>
+                <td>
+                    <%= n.mobile_no %>
+                </td>
+                <td>
+                    <%= n.email %>
+                </td>
+                <td>
+                    <%= n.counsultation_fees %>
+                </td>
+                <td>
+                    <%= n.experience %>
+                </td>
+                <td>
+                    <%= n.work_history %>
+                </td>
+                <td>
+                    <%= n.gender_id %>
+                </td>
+                <td>
+                    <%= n.dob %>
+                </td>
+                <td>
+                    <%= n.about %>
+                </td>
+                <td>
+                    <%= n.awards%>
+                </td>
+                <td>
+                    <%= n.ntuitive_user_id%>
+                </td>
+                <td>
+                    <%= n.city_id%>
+                </td>
+                <td>
+                    <%= link_to("Edit", {:action => 'edit', :id => n.id},  :class => 'btn btn-primary') %>
+                    <%= link_to("Delete", {:action => 'delete', :id => n.id},  :class => 'btn btn-danger' ) %>
+                </td>
+            </tr>
+        <% end %>
+    </table>
 </div>

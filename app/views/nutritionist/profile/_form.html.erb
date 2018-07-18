@@ -1,50 +1,51 @@
 <table class="mb20">
     <tr>
-        <th><%= f.label(:name, "Name")%></th>
-        <td><%= f.text_field(:name, class: "form-control") %></td>
+        <th><%= f.label(:name, "Name", :style => 'margin: 0px 20px 20px 0px;')%></th>
+        <td><%= f.text_field(:name, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
     <tr>
-        <th><%= f.label(:mobile_no, "Mobile Number") %></th>
-        <td><%= f.text_field(:mobile_no, class: "form-control") %></td>
+        <th><%= f.label(:mobile_no, "Mobile Number", :style => 'margin: 0px 20px 20px 0px;') %></th>
+        <td><%= f.text_field(:mobile_no, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
     <tr>
-        <th><%= f.label(:email, "Email") %></th>
-        <td><%= f.text_field(:email, class: "form-control") %></td>
+        <th><%= f.label(:email, "Email", :style => 'margin: 0px 20px 20px 0px;') %></th>
+        <td><%= f.text_field(:email, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
     <tr>
-        <th><%= f.label(:counsultation_fees, "Counsultation Fees") %></th>
-        <td><%= f.text_field(:counsultation_fees, class: "form-control") %></td>
+        <th><%= f.label(:counsultation_fees, "Counsultation Fees", :style => 'margin: 0px 20px 20px 0px;') %></th>
+        <td><%= f.text_field(:counsultation_fees, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
     <tr>
-        <th><%= f.label(:experience, "Experience") %></th>
-        <td><%= f.text_field(:experience, class: "form-control") %></td>
+        <th><%= f.label(:experience, "Experience", :style => 'margin: 0px 20px 20px 0px;') %></th>
+        <td><%= f.text_field(:experience, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
     <tr>
-        <th><%= f.label(:work_history, "Work History") %></th>
-        <td><%= f.text_field(:work_history, class: "form-control") %></td>
+        <th><%= f.label(:work_history, "Work History", :style => 'margin: 0px 20px 20px 0px;') %></th>
+        <td><%= f.text_field(:work_history, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
     <tr>
-        <th><%= f.label(:gender_id, "Gender") %></th>
-        <td><%= f.text_field(:gender_id, class: "form-control") %></td>
+        <th><%= f.label(:gender_id, "Gender", :style => 'margin: 0px 20px 20px 0px;') %></th>
+        <td><%= f.text_field(:gender_id, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
     <tr>
-        <th><%= f.label(:dob, "DOB") %></th>
-        <td><%= f.text_field(:dob, class: "form-control") %></td>
+        <th><%= f.label(:dob, "DOB", :style => 'margin: 0px 20px 20px 0px;') %></th>
+        <td><%= f.text_field(:dob, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
     <tr>
-        <th><%= f.label(:about, "About") %></th>
-        <td><%= f.text_field(:about, class: "form-control") %></td>
+        <th><%= f.label(:about, "About", :style => 'margin: 0px 20px 20px 0px;') %></th>
+        <td><%= f.text_field(:about, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
     <tr>
-        <th><%= f.label(:awards, "Awards") %></th>
-        <td><%= f.text_field(:awards, class: "form-control") %></td>
+        <th><%= f.label(:awards, "Awards", :style => 'margin: 0px 20px 20px 0px;') %></th>
+        <td><%= f.text_field(:awards, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
     <tr>
-        <th><%= f.label(:ntuitive_user_id, "Ntutive User") %></th>
-        <td><%= f.text_field(:ntuitive_user_id, class: "form-control") %></td>
+        <th><%= f.label(:ntuitive_user_id, "Ntutive User", :style => 'margin: 0px 20px 20px 0px;') %></th>
+        <td><%= f.text_field(:ntuitive_user_id, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
     <tr>
-        <th><%= f.label(:city_id, "City") %></th>
-        <td><%= f.text_field(:city_id, class: "form-control") %></td>
+        <th><%= f.label(:city_id, "City", :style => 'margin: 0px 20px 20px 0px;') %></th>
+        <td><%= f.text_field(:city_id, class: "form-control", :style => 'margin: 0px 20px 20px 0px;') %></td>
+        <td><%# f.select(:city_id, @cities.map { |s| [c.name, c.id] })%></td>
     </tr>
 </table>
