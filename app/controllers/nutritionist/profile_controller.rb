@@ -10,10 +10,15 @@ class Nutritionist::ProfileController < ApplicationController
 
   def new
     @nutritionist = Nutritionist::Profile.new
+      @masterCities = Master::City.all
+      @masterSpecialities = Master::Speciality.all
   end
 
   def create
     @nutritionist = Nutritionist::Profile.new(nutritionist_params)
+    @masterCities = Master::City.all
+    @masterSpecialities = Master::Speciality.all
+
     if @nutritionist.save
       flash[:notice] = "Nutritionist Created Successfully."
       redirect_to(:action => 'index')
@@ -24,10 +29,19 @@ class Nutritionist::ProfileController < ApplicationController
 
   def edit
     @nutritionist = Nutritionist::Profile.find(params[:id])
+    @masterCities = Master::City.all
+    @masterSpecialities = Master::Speciality.all
+
   end
 
   def update
     @nutritionist = Nutritionist::Profile.find(params[:id])
+    @masterCities = Master::City.all
+    @masterSpecialities = Master::Speciality.all
+
+    p "params"
+    p params
+
     if @nutritionist.update_attributes(nutritionist_params)
       flash[:notice] = "Updated Successfully"
       redirect_to(:action => 'index')

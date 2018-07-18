@@ -4,11 +4,12 @@
         <h2 class="page-header mb20">City</h2>
     </div>
 
-    <%= link_to("Add New City", {:action => 'new'}, :class => 'btn btn-primary mb20' ) %>
+    <%= link_to('Add New City', {:action => 'new'}, :class => 'btn btn-primary mb20') %>
     <table class="table table-striped">
         <tr>
             <th>#</th>
             <th>Name</th>
+            <th>Nutritionist</th>
             <th>Status</th>
             <th>Actions</th>
         </tr>
@@ -16,6 +17,11 @@
             <tr>
                 <td> <%= c.id  %>  </td>
                 <td><%= c.name %></td>
+                <td>
+                  <% c.nutritionists.each do |n| %>
+                      <%= n.name %><br/>
+                  <% end %>
+                </td>
                 <td><%= c.status_id %></td>
                 <td>
                     <%= link_to("Edit", { :action => 'edit', :id => c.id }, :class => 'btn btn-primary') %>
@@ -24,4 +30,5 @@
             </tr>
         <% end %>
     </table>
+</div>
 </div>

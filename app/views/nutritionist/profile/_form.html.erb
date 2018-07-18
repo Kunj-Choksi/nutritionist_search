@@ -43,9 +43,26 @@
         <th><%= f.label(:ntuitive_user_id, "Ntutive User", :style => 'margin: 0px 20px 20px 0px;') %></th>
         <td><%= f.text_field(:ntuitive_user_id, class: "form-control", :value => @nutritionist.ntuitive_user_id, :style => 'margin: 0px 20px 20px 0px;') %></td>
     </tr>
+
+    <tr>
+        <th>
+          <label style="margin: 0px 20px 20px 0px;" for="nutritionist_profiles_work_history">Specialities</label>
+        </th>
+        <td>
+            <select class="form-control" multiple name="nutritionist_profiles[specialities]" id="nutritionist_profiles[specialities]">
+                <% @masterSpecialities.each do |s| %>
+                  <option ><%= s.name %></option>
+                <% end %>
+            </select>
+        </td>
+    </tr>
+
     <tr>
         <th><%= f.label(:city_id, "City", :style => 'margin: 0px 20px 20px 0px;') %></th>
-        <td><%= f.text_field(:city_id, class: "form-control",:value => @nutritionist.city_id,  :style => 'margin: 0px 20px 20px 0px;') %></td>
+        <td>
+          <%= f.select :city_id, options_for_select(@masterCities.map { |city| [city.name, city.id] }, @nutritionist.city_id),{},{:class => "form-control"} %>
+
+        </td>
         <td><%# f.select(:city_id, @cities.map { |s| [c.name, c.id] })%></td>
     </tr>
 </table>

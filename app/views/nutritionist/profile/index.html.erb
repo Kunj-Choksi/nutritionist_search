@@ -56,7 +56,7 @@
                     <%= n.ntuitive_user_id%>
                 </td>
                 <td>
-                    <%= n.city_id%>
+                    <%= (n.city.present?) ? n.city.name : '' %>
                 </td>
                 <td>
                     <%= link_to("Edit", {:action => 'edit', :id => n.id},  :class => 'btn btn-primary') %>
