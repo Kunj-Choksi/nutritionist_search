@@ -2,11 +2,11 @@
     <div class="new-city-container">
     
 
-<%= form_for(@city, :url => {:action => 'update', :id => @city.id }) do |f|%>
+<%= form_for(:master_cities, :url => {:action => 'update', :id => @city.id }) do |f|%>
         <%= render(:partial => "form", :locals => {:f => f})%>
 
         <div class="form-buttons">
-            <%= submit_tag("Done", :class => 'btn btn-primary') %>
+            <%= submit_tag("Update City", :class => 'btn btn-primary') %>
         </div>
     <% end %>
 </div>

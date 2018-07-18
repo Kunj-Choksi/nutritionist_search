@@ -1,11 +1,11 @@
 <h2>Edit Specility</h2>
     <div class="new-speciality-container">
-    <%= form_for(@speciality, :url => {:action => 'update', :id => @speciality.id }) do |f|%>
+    <%= form_for(:master_specialities, :url => {:action => 'update', :id => @speciality.id }) do |f|%>
         
         <%= render(:partial => "form", :locals => {:f => f})%>
 
         <div class="form-buttons">
-            <%= submit_tag("Done", :class => 'btn btn-primary') %>
+            <%= submit_tag("Update Specility", :class => 'btn btn-primary') %>
         </div>
     <% end %>
 </div>

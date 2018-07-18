@@ -1,10 +1,10 @@
 <table class="mb20">
     <tr class="mb20">
         <td><%= f.label(:name, "Name", :style => 'margin: 0px 30px 30px 0px;') %></td>
-        <td><%= f.text_field :name, :class => 'form-control', :style => 'margin: 0px 30px 30px 0px;' %></td>
+        <td><%= f.text_field :name, :class => 'form-control', :value => @city.name, :style => 'margin: 0px 30px 30px 0px;' %></td>
     </tr>
     <tr>
         <td><%= f.label(:status_id, "Status") %></td>
-        <td><%= f.text_field(:status_id, :class => 'form-control')%></td>
+        <td><%= f.text_field(:status_id, :value => @city.status_id, :class => 'form-control')%></td>
     </tr>
 </table>

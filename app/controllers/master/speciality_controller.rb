@@ -11,7 +11,7 @@ class Master::SpecialityController < ApplicationController
   end
 
   def create
-    @speciality = Master::Speciality.new(page_params)
+    @speciality = Master::Speciality.new(speciality_params)
     if @speciality.save
       flash[:notice] = "Created New Speciality!"
       redirect_to(:action => 'index')
@@ -26,7 +26,7 @@ class Master::SpecialityController < ApplicationController
 
   def update
     @speciality = Master::Speciality.find(params[:id])
-    if @speciality.update_attributes(page_params)
+    if @speciality.update_attributes(speciality_params)
       flash[:notice] = "Updated Successfully!"
       redirect_to(:action => 'index')
     else
@@ -49,7 +49,7 @@ class Master::SpecialityController < ApplicationController
   end
 
   private
-    def page_params
+    def speciality_params
       params.require(:master_specialities).permit(:name, :description)
     end
 end

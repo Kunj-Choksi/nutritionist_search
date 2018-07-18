@@ -11,7 +11,7 @@ class Master::CityController < ApplicationController
   end
 
   def create
-    @city = Master::City.new(page_params)
+    @city = Master::City.new(city_params)
     if @city.save
       flash[:notice] = "City Created Successfully!"
       redirect_to(:action => 'index')
@@ -26,7 +26,7 @@ class Master::CityController < ApplicationController
 
   def update
     @city = Master::City.find(params[:id])
-    if @city.update_attributes(page_params)
+    if @city.update_attributes(city_params)
       flash[:notice] = "Updated!"
       redirect_to(:action => 'index')
     else
@@ -51,7 +51,7 @@ class Master::CityController < ApplicationController
 
   private
 
-    def page_params
+    def city_params
       params.require(:master_cities).permit(:name, :status_id)
     end
 end

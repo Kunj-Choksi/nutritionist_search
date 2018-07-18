@@ -1,11 +1,11 @@
 <div class="new-nutritionist-container">
 
-    <%= form_for(@nutritionist, :url => { :action => 'update', :id => @nutritionist.id }) do |f| %>
+    <%= form_for(:nutritionist_profiles, :url => { :action => 'update', :id => @nutritionist.id }) do |f| %>
 
         <%= render(:partial => "form", :locals => {:f => f})%>
 
         <div class="form-buttons">
-            <%= submit_tag("Create", :class => 'btn btn-primary') %>
+            <%= submit_tag("Update Nutritionist", :class => 'btn btn-primary mb20') %>
         </div>
     <% end %>
 </div>

@@ -19,7 +19,7 @@
                 <td><%= c.status_id %></td>
                 <td>
                     <%= link_to("Edit", { :action => 'edit', :id => c.id }, :class => 'btn btn-primary') %>
-                    <%= link_to("Delete", {:action => 'delete', :id => c.id}, :class => 'btn btn-danger') %>
+                    <%= link_to("Delete", { :action => 'delete', :id => c.id }, :class => 'btn btn-danger') %>
                 </td>
             </tr>
         <% end %>

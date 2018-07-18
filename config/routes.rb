@@ -33,9 +33,7 @@ Rails.application.routes.draw do
     post 'profile/destroy'
   end
   
-  get 'app/views/nutritionist/profile/index'
-  
-  #root "nutritionist#profile#index"
+  root "nutritionist/profile#index"
   
   match ':controller(/:action(/:id))', :via => [:get, :post]
 
