@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header mb20">Speciality</h2>
+    </div>
+    
+    <%= link_to("Add New Speciality", {:action => 'new'}, :class => 'btn btn-primary mb20' ) %>
+    <table class="table table-striped">
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+        <% @specialities.each do |s| %>
+            <tr>
+                <td> <%= s.id  %>  </td>
+                <td><%= s.name %></td>
+                <td><%= s.description %></td>
+                <td>
+                    <%= link_to("Edit", { :action => 'edit', :id => s.id }, :class => 'btn btn-primary' ) %>
+                    <%= link_to("Delete", {:action => 'delete', :id => s.id}, :class => 'btn btn-danger') %>
+                </td>
+            </tr>
+        <% end %>
+    </table>
+</div>

@@ -1,0 +1,14 @@
+<h2>Add City</h2>
+<div class="new-city-container">
+
+    <%= form_for(:master_cities, :url => {:action => 'create'}) do |f|%>
+
+        <%= render(:partial => "form", :locals => {:f => f})%>
+
+        <div class="form-buttons">
+            <%= submit_tag("Create City", :class => 'btn btn-primary') %>
+        </div>
+        
+    <% end %>
+
+</div>

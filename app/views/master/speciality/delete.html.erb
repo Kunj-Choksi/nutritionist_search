@@ -1,0 +1,9 @@
+<%= form_for(:master_specialities, :url => {:action => 'destroy', :id => @speciality.id}) do |f| %>
+
+ <h2>Are You sure want to delete?</h2>
+
+    <p><%=  @speciality.name %></p>
+
+    <%= submit_tag("Delete", :class => 'btn btn-warning')%>
+
+<% end %>

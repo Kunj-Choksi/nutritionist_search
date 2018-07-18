@@ -1,0 +1,13 @@
+<div class="new-nutritionist-container">
+<h2>Add Nutritionist</h2>
+    <%= form_for(:nutritionist_profiles, :url => {:action => 'create'}) do |f| %>
+        <div class="form-group">
+            <%= render(:partial => "form", :locals => {:f => f})%>
+
+            <div class="form-buttons">
+                <%= submit_tag("Create Nutritionist", :class => 'btn btn-primary') %>
+            </div>
+        </div>
+    <% end %>
+</div>
+

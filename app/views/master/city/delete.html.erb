@@ -1,0 +1,9 @@
+<%= form_for(:master_cities, :url => {:action => 'destroy', :id => @city.id}) do |f| %>
+
+    <h2>Are You sure want to delete?</h2>
+
+    <p><%=  @city.name %></p>
+
+    <%= submit_tag("Delete", :class => 'btn btn-warning')%>
+
+<% end %>

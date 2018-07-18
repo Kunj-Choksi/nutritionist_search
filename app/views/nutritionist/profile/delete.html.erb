@@ -1,0 +1,7 @@
+<%= form_for(:nutritionist_profiles, :url => {:action => 'destroy', :id => @nutritionist.id}) do |f| %>
+
+    <h2>Are You you wany to delete?</h2>
+    <p><%= @nutritionist.name %></p>
+    <%= submit_tag("Delete", :class => 'btn btn-warning') %>
+
+<% end %>

@@ -1,0 +1,2 @@
+module Master::SpecialityHelper
+end

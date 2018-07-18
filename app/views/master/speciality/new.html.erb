@@ -1,0 +1,14 @@
+<h2>Add Speciality</h2>
+<div class="new-specility-container">
+
+    <%= form_for(:master_specialities, :url => {:action => 'create'}) do |f|%>
+
+        <%= render(:partial => "form", :locals => {:f => f})%>
+
+        <div class="form-buttons">
+            <%= submit_tag("Create Specility", :class => 'btn btn-primary') %>
+        </div>
+        
+    <% end %>
+
+</div>
