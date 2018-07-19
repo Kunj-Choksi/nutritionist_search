@@ -1,0 +1,2 @@
+module NutritionistSearchApi::AbstractApiHelper
+end

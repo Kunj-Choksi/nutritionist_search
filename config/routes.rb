@@ -32,7 +32,12 @@ Rails.application.routes.draw do
     post 'profile/update'
     post 'profile/destroy'
   end
-  
+
+  namespace :nutritionist_search_api do
+      match 'masters/retrieve_cities', via: [:post, :options]
+      match 'search/retrieve_nutritionist', via: [:post, :options]
+  end
+
   root "nutritionist/profile#index"
   
   match ':controller(/:action(/:id))', :via => [:get, :post]
