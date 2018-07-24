@@ -35,7 +35,9 @@ Rails.application.routes.draw do
 
   namespace :nutritionist_search_api do
       match 'masters/retrieve_cities', via: [:post, :options]
+      match 'masters/retrieve_specialities', via: [:post, :options]
       match 'search/retrieve_nutritionist', via: [:post, :options]
+      match 'nutritionist_profile/retrieve_nutritionist_profile', via: [:post, :options]
   end
 
   root "nutritionist/profile#index"

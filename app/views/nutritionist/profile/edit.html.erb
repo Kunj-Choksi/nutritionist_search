@@ -1,6 +1,6 @@
 <div class="new-nutritionist-container">
 
-    <%= form_for(:nutritionist_profiles, :url => { :action => 'update', :id => @nutritionist.id }) do |f| %>
+    <%= form_for(:nutritionist_profiles,:html => { multipart: true }, :url => { :action => 'update', :id => @nutritionist.id }) do |f| %>
 
         <%= render(:partial => "form", :locals => {:f => f})%>
 

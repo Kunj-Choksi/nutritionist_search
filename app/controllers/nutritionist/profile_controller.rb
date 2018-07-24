@@ -80,7 +80,7 @@ class Nutritionist::ProfileController < ApplicationController
   end
 
   def nutritionist_params
-    params.require(:nutritionist_profiles).permit(:name, :mobile_no, :email, :counsultation_fees, :experience, :work_history, :gender_id, :dob, :about, :awards, :ntuitive_user_id, :city_id)
+    params.require(:nutritionist_profiles).permit(:name, :mobile_no, :email, :counsultation_fees, :experience, :work_history, :gender_id, :dob, :about, :awards, :ntuitive_user_id, :city_id, :avatar)
   end
 
 end

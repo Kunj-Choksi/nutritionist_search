@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_16_125223) do
+ActiveRecord::Schema.define(version: 2018_07_18_122759) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,6 +25,13 @@ ActiveRecord::Schema.define(version: 2018_07_16_125223) do
   create_table "master_specialities", force: :cascade do |t|
     t.string "name"
     t.text "description", default: "", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "nutritionist_nutritionist_speciality_rels", force: :cascade do |t|
+    t.integer "nutritionist_id"
+    t.integer "speciality_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

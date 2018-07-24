@@ -1,0 +1,2 @@
+module NutritionistSearchApi::NutritionistProfileHelper
+end
